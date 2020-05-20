@@ -1,9 +1,10 @@
 " to use vim-plug
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/vim-easy-align'
-Plug 'ludovicchabant/vim-gutentags'
-Plug 'universal-ctags/ctags'
+" Plug 'ludovicchabant/vim-gutentags'
+" Plug 'universal-ctags/ctags'
 " Plug 'Valloric/YouCompleteMe'
+Plug 'preservim/nerdtree'
 call plug#end()
 
 " set tags=./.tags;,.tags
@@ -75,6 +76,14 @@ call plug#end()
 " let g:ycm_confirm_extra_conf = 0
 " let g:ycm_global_ycm_extra_conf = '~/.vim/.my_global_extra_conf.py'
 
+" NERDTree 的设置
+" autocmd vimenter * NERDTree
+map <C-n> :NERDTreeToggle<CR>
+
+" 全局复制粘贴脚本
+source ~/.vim_global_copy_paste.vim
+vnoremap C :call Copy_visual()<CR>
+nnoremap V :call Paste_visual()<CR>
 
 set t_Co=256
 colorscheme desert
