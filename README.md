@@ -12,5 +12,10 @@ cp ~/.vimrc ~/.vimrc-bak
 ```shell
 :PlugInstall
 :PlugStatus
+
+设置自动刷新，可以输入如下指令：
+
+```shell
+:set autoread | au CursorHold * checktime | call feedkeys("lh")
 ```
 
