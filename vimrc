@@ -119,6 +119,7 @@ imap jj <Esc>
 set nu
 nnoremap <space> *N
 set tabstop=4
+set expandtab
 set shiftwidth=4
 set nocompatible
 set backspace=indent,eol,start
