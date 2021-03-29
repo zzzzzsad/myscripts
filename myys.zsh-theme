@@ -46,8 +46,7 @@ local exit_code="%(?,,C:%{$fg[red]%}%?%{$reset_color%})"
 #
 # % myys in ~/.oh-my-zsh [21:47:42] C:0
 # $
-PROMPT="
-%{$terminfo[bold]$fg[blue]%}#%{$reset_color%} \
+PROMPT="%{$terminfo[bold]$fg[blue]%}#%{$reset_color%} \
 %(#,%{$bg[yellow]%}%{$fg[black]%}%n%{$reset_color%},%{$fg[cyan]%}%n) \
 %{$fg[white]%}in \
 %{$terminfo[bold]$fg[yellow]%}%~%{$reset_color%}\
