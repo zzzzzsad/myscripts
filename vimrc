@@ -89,6 +89,11 @@ set t_Co=256
 colorscheme desert
 set hlsearch
 
+highlight DiffAdd    cterm=bold ctermfg=2 ctermbg=8 gui=none guifg=bg guibg=Red
+highlight DiffDelete cterm=bold ctermfg=2 ctermbg=8 gui=none guifg=bg guibg=Red
+highlight DiffChange cterm=bold ctermfg=2 ctermbg=8 gui=none guifg=bg guibg=Red
+highlight DiffText   cterm=bold ctermfg=2 ctermbg=52 gui=none guifg=bg guibg=Red
+
 highlight PMenu ctermfg=0  ctermbg=242 guifg=black guibg=darkgrey
 highlight PMenuSel ctermfg=242 ctermbg=8 guifg=darkgrey guibg=black
 highlight Search ctermfg=238 ctermbg=178
