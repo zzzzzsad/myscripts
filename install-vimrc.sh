@@ -11,5 +11,5 @@ cp vim-plug_master_plug.vim $dir/plug.vim
 
 cp vim_global_copy_paste.vim ~/.vim_global_copy_paste.vim
 cp ./vimrc ~/.vimrc
-
+cp ./tmux.conf ~/.tmux.conf
 

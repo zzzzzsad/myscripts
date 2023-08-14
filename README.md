@@ -1,9 +1,10 @@
 # myscripts
 
 安装vim-plug插件
-首先记得备份 vimrc
+首先记得备份 vimrc 和 tmux.conf
 ```shell
 cp ~/.vimrc ~/.vimrc-bak
+cp ~/.tmux.conf ~/.tmux.conf-bak
 ```
 执行 install-vimrc.sh
 
