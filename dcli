@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+echo "begin enter docker containser --> $@"
+echo ""
+docker exec -it -e LINES=$(tput lines) -e COLUMNS=$(tput cols) $@ bash -C
